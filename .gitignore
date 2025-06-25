@@ -1,0 +1,41 @@
+# Node modules (se usi strumenti JS)
+node_modules/
+
+# File temporanei di sistema
+.DS_Store
+Thumbs.db
+
+# Backup editor
+*~
+*.swp
+*.swo
+
+# Output di build (se usi generatori statici)
+_site/
+dist/
+build/
+
+# File di configurazione personali
+.env
+.vscode/
+.idea/
+
+# Log
+*.log
+
+# File di output temporanei
+*.tmp
+*.bak
+
+# File di lock
+package-lock.json
+yarn.lock
+
+# File di immagini generate
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Escludi tutto tranne i markdown
+!*.md
